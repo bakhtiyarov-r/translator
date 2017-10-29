@@ -99,8 +99,9 @@ class Translator extends Component {
             <ChangeLang onLangChange={this.langChange} langValue={this.state.lang}/>
           </div>
           <div className="Output-text__container">
-            <span >{this.state.outputText}</span>
+            <span >{this.state.outputText}</span>            
           </div>
+          <p>Переведено сервисом <a href="http://translate.yandex.ru/">«Яндекс.Переводчик»</a></p>
         </div>
       </div>
     );
