@@ -1,0 +1,83 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+
+.change-lang {
+	display: inline-block;
+	padding: 5px 10px;
+}
+
+.detect-lang {
+	display: inline-block;
+	padding: 5px 10px;
+}
+
+.Translator {
+  display: inline-block;
+  width: 100%;
+}
+
+.Input-text {
+  display: inline-block;
+  float: left;
+  margin: 10px 10px;  
+  width:48%;
+}
+
+.Input-text__area {
+  font-size: 24px;
+  min-width: 95%;
+  min-height: 134px;
+  height: auto;
+  padding: 10px;  
+}
+
+.Output-text {
+  display: inline-block;
+  float: left;
+  margin: 10px 10px; 
+  width:48%;
+}
+
+.Output-text__container {
+  display: inline-block;  
+  background: whitesmoke;
+  min-height: 136px;
+  width: 95%;
+  text-align: left;
+  padding: 10px;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
